@@ -1,35 +1,52 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Adrian Sham's personal webpage">
     <meta name="keywords" content="Adrian, Sham, UW, CSE">
     <meta name="author" content="Adrian Sham">
     <title>Adrian Sham | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    </head>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
     
-    <body>
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="nav-bar right">
-                <ul class="button-group">
-                    <li><a href="/jenkins" class="button">Jenkins Server</a></li>                    
-                </ul>
-                </div>
-                
-            <h1>Adrian Sham</h1>
-            </div>
-        <hr/>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Adrian Sham</a>
         </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    <div class="row">
-
-        <div class="large-12 columns">
-
+    <div class="container">
+      <h1>Adrian Sham</h1>
         <p>
             I am currently a fifth year Master's student in the <a href="http://www.cs.washington.edu/">Computer Science and Engineering Department</a> 
             at the <a href="http://www.washington.edu/">University of Washington</a>.
@@ -43,74 +60,40 @@
             This fall, I will be a TA for <a href="https://courses.cs.washington.edu/courses/cse484/15au/">Computer Security (CSE 484)</a> for Yoshi.
         </p>
 
-        </div>
-    
-    </div>
-
-    <div class="row">
-        <div class="large-12 columns">
-        <hr>
-        <h3>Professional Experience</h3>
-        <div class="large-12 columns">
-            <p>
-                <b>Software Engineering Intern</b>, June - September 2015<br/>
-                The Walt Disney Company, Seattle - Content Management Systems
-            </p>
-
-            <p>
-                <b>Software Engineering Intern</b>, June - September 2014<br/>
-                The Boeing Company, Everett - Loadable Software
-            </p>
-
-            <p>
-                <b>Software Engineering Intern</b>, June - September 2013<br/>
-                The Boeing Company, Everett - Loadable Software
-            </p>
-        </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-12 columns">
-        <hr>
-        <h3>Teaching</h3>
-        <div class="large-12 columns">
-            <p></p>
-            <ul>
-                <li><a href="https://courses.cs.washington.edu/courses/cse484/15au/">Autumn 2015: TA for Computer Security (CSE 484)</a></li>
-                <li><a href="https://courses.cs.washington.edu/courses/cse484/15sp/">Spring 2015: TA for Computer Security (CSE 484)</a></li>
-                <li><a href="http://courses.cs.washington.edu/courses/csep564/15wi/">Winter 2015: TA for Computer Security (CSE P 564)</a></li>
-                <li><a href="https://courses.cs.washington.edu/courses/cse484/14au/">Autumn 2014: TA for Computer Security (CSE 484)</a></li>
-            </ul>
-        </div>
-
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-12 columns">
-            <hr>
-            <h3>Find Me</h3>
-            <div class="large-4 columns">
-                <a href="https://www.linkedin.com/pub/adrian-sham/86/2a/b03">
-
-                <img src="img/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Adrian Sham's profile on LinkedIn">
-
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <footer class="row">
-        <div class="large-12 columns">
         <hr/>
-        <div class="row">
-        <div class="large-6 columns">
-        <p>Work in progress. Last updated September 2015</p>
-        </div>
-        </div>
-        </div>
-    </footer>
 
-    </body>
+      <h3>Professional Experience</h3>
+        
+        <p>
+            <b>Software Engineering Intern</b>, June - September 2015<br/>
+            The Walt Disney Company, Seattle - Content Management Systems
+        </p>
+
+        <p>
+            <b>Software Engineering Intern</b>, June - September 2014<br/>
+            The Boeing Company, Everett - Loadable Software
+        </p>
+
+        <p>
+            <b>Software Engineering Intern</b>, June - September 2013<br/>
+            The Boeing Company, Everett - Loadable Software
+        </p>
+
+        <hr/>
+        
+      <h3>Teaching</h3>
+      <ul>
+        <li><a href="https://courses.cs.washington.edu/courses/cse484/15au/">Autumn 2015: TA for Computer Security (CSE 484)</a></li>
+        <li><a href="https://courses.cs.washington.edu/courses/cse484/15sp/">Spring 2015: TA for Computer Security (CSE 484)</a></li>
+        <li><a href="http://courses.cs.washington.edu/courses/csep564/15wi/">Winter 2015: TA for Computer Security (CSE P 564)</a></li>
+        <li><a href="https://courses.cs.washington.edu/courses/cse484/14au/">Autumn 2014: TA for Computer Security (CSE 484)</a></li>
+      </ul>
+
+    </div><!-- /.container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
